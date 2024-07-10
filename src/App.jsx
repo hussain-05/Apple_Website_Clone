@@ -1,4 +1,4 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import Features from "./components/Features"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
