@@ -1,4 +1,4 @@
-import { SpeedInsights } from "@vercel/speed-insights/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Features from "./components/Features"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
@@ -10,7 +10,6 @@ import Navbar from "./components/Navbar"
 const App = () => {
   return (
     <main className="bg-black">
-      <SpeedInsights />
       <Navbar />
       <Hero />
       <Highlights />
@@ -18,6 +17,7 @@ const App = () => {
       <Features />
       <HowItWorks />
       <Footer />
+      <SpeedInsights />
     </main>
   )
 }
